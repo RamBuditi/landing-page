@@ -6,6 +6,7 @@
     <title>Landing Page</title>
 
     <Style>
+            
     .head
     {
     background-color: #1F2937;
@@ -31,6 +32,7 @@
     {
         font-size: 18px;
         color:#E5E7Eb;
+        font-weight: bold;
         
     }
     .headbody
@@ -41,6 +43,7 @@
         padding-left:10%;
         padding-right:50%;
        
+       
     }
     .hero
     {
@@ -49,36 +52,136 @@
         color:#F9FAF8
         
     }
-    .image
+
+    .center
     {
         display: flex;
-        flex-direction: row;
-        justify-content: center;;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex
+    {
+        display: flex;
+        size:10 px;
+        justify-content: space-around;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 10%;
+        
+        
+    }
+
+    img
+    {
+        border: 5px solid blue;
+    }
+
+    .quote
+    {
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10%;
+        padding-left:25%;
+        padding-right: 25%;
+        padding-bottom: 10%;
+    }
+    .name
+    {
+        padding-top: 30%;
+    }
+
+    .blue
+    {
+        background-color:blue;
+        color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%
+    }
+
+    .info
+    {
+        font-size: 36px;
+        font-weight: extra-bold;
+        color: #1F2937
+    }
+
+    .word
+    {
+        font-size: 36px;
+        font-weight: lighter;
+        color: #1F2937
     }
 
     </Style>
 </head>
 <body>
+
+    
     <div class = "head heading" >
         <a class = "header">Header Logo </a>
         <a class = "secondary"> header link one</a>
         <a class = "secondary"> header link two</a>
         <a class = "secondary"> header link three</a>
-    </div>
-    <div class = "head headbody" >
-        <text class ="hero">This Website is awesome</text>
-        <p class = "secondary">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-        <button class = "button">Sign Up</button>
-        <img src = "https://w0.peakpx.com/wallpaper/209/381/HD-wallpaper-background-abstract-1-jpg-design-colors-blue.jpg" class = "image">
+        
     </div>
     <div>
-
+            <div class = " head headbody " >
+                
+                <text class ="hero">This Website is awesome</text>
+                <p class = "secondary">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button class = "button">Sign Up</button>
+            </div>
+           
     </div>
-    <div>
 
-    </div>
-    <div>
 
-    </div>
+     </div>
+     <div>
+        <h1 class = "center info">Some random information.</h1>
+        <div class = "flex">
+            <div>
+                <img src = "https://upload.wikimedia.org/wikipedia/commons/4/41/Sunflower_from_Silesia2.jpg" width = "100" height="100">
+                <p class="secondary">this is some subtext
+                    under an illustration or image
+                </p>
+            </div>
+            <div>
+                <img src = "https://upload.wikimedia.org/wikipedia/commons/4/41/Sunflower_from_Silesia2.jpg" width = "100" height="100">
+                <p class="secondary">this is some subtext
+                    under an illustration or image
+                </p>
+            </div>
+            <div>
+                <img src = "https://upload.wikimedia.org/wikipedia/commons/4/41/Sunflower_from_Silesia2.jpg" width = "100" height="100">
+                <p class="secondary">this is some subtext
+                    under an illustration or image
+                </p>
+            </div>
+            <div>
+                <img src = "https://upload.wikimedia.org/wikipedia/commons/4/41/Sunflower_from_Silesia2.jpg" width = "100" height="100">
+                <p class="secondary">this is some subtext
+                    under an illustration or image
+                </p>
+            </div>
+        
+        </div>
+
+
+
+        <div class="quote">
+            <p class = "word">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
+            <text class = "name secondary">-Thor, God of Thunder</text>
+        </div>
+
+        <div class = "blue">
+            <p>Hello World</p>
+        </div>
+        
 </body>
 </html>
